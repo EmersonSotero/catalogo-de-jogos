@@ -1,0 +1,130 @@
+:root{
+   --preto: #141414; 
+   --temaprin: rgb(56, 52, 90);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* elementos base*/
+body{
+    background-color: var(--preto);
+    font-family: 'times new roman', times, sans-serif;
+    color:white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+header .logo{
+    margin-left: 10px;
+    color: white;
+    font-family: 'arial Black';
+    font-size: 40px;
+    ;
+}
+
+header{
+    background-color: var(--temaprin);
+}
+
+header nav{
+    margin-right: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+/* Jogo principal*/
+.jogo-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.30)100% ), url(../images/darkSouls_theme.jpg);
+    height: 450px;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .container{
+    width: 45%;
+    margin-left: 25px;
+
+
+}
+
+.jogo-principal .descricao{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.jogo-principal .titulo{
+    font-size: 40px;
+}
+.jogo-principal .botao{
+    background-color: rgba(0,0, 0,.50);
+    border: none;
+    color: white;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.jogo-principal .botao:hover{
+    background-color: white;
+    color: black;
+
+}
+.botao i{
+    margin-right: 8px;
+}
+
+/*Catalogo de jogos Principal*/
+
+.capas{
+    background-size: cover;
+    margin: 20px;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section img{
+    width: 280px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px solid;
+    transition: 0.3s;
+}
+
+section img:hover{
+    box-shadow: 0 4px 8px 0 rgba(153, 86, 161, 0.2), 0 6px 20px 0 rgba(146, 75, 160, 0.19);
+    opacity: .5;
+}
+
+
+footer{
+    background-color: var(--temaprin);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
