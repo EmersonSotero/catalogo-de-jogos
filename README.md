@@ -1,6 +1,6 @@
 # catalogo-de-jogos
 
-[Clique para acessar!](emersonsotero.github.io/catalogo-de-jogos)
+[Clique para acessar!](https://emersonsotero.github.io/catalogo-de-jogos)
 
 ## INFORMAÇÕES
 - html e css;
